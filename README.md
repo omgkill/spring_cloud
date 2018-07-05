@@ -1,5 +1,4 @@
-# Spring Cloud
-SPRING CLOUD EXAMPLE
+# Spring Cloud Example
 
 SPRING CLOUD VERSION = Finchley.RELEASE
 >### used :
