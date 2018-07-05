@@ -46,8 +46,8 @@
     </dependencies>
 
     <modules>
-
         <module>eureka</module>
+        <module>config</module>
     </modules>
 
 
