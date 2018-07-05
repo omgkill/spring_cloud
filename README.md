@@ -1,8 +1,8 @@
-# eureka
+# Spring Cloud
 SPRING CLOUD EXAMPLE
 
 SPRING CLOUD VERSION = Finchley.RELEASE
->#### use:
+>### used :
   * eureka server
   * hystrix
   * hystrix-dashboard
