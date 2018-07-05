@@ -53,13 +53,6 @@
         <module>gateway-service-zuul</module>
     </modules>
 
-    <scm>
-        <connection>scm:git@github.com:omgkill/spring_cloud.git</connection>
-        <developerConnection>scm:git@github.com:omgkill/spring_cloud.git</developerConnection>
-
-        <url>https://github.com/omgkill/spring_cloud</url>
-    </scm>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -78,27 +71,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.0-beta-7</version>
-                <configuration>
-                    <providerImplementations>
-                        <git>jgit</git>
-                    </providerImplementations>
-                    <username>omgkill</username>
-                    <password>jing4145</password>
-                    <tagBase>${project.artifactId}-${project.version}</tagBase>
-                    <goals>-f pom.xml deploy</goals>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.apache.maven.scm</groupId>
-                        <artifactId>maven-scm-provider-jgit</artifactId>
-                        <version>1.9.5</version>
-                    </dependency>
-                </dependencies>
             </plugin>
 
         </plugins>
